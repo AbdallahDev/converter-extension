@@ -1,0 +1,78 @@
+body {
+  text-align: center;
+  font-family:
+    "Inter",
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+  margin: 0;
+  background-color: #eeeeee;
+}
+
+#fullApp {
+  display: flex;
+  flex-direction: column;
+}
+#headDiv {
+  background-color: #6f00ff;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#headTitle {
+  margin: 0;
+  font-size: 32px;
+  font-weight: 800;
+}
+
+#valueInput {
+  width: 208px;
+  height: 85px;
+  background-color: #6f00ff;
+  border: 4px solid white;
+  text-align: center;
+  font-size: 67px;
+  /* padding-left: 22px; */
+  font-weight: bold;
+  color: white;
+  border-radius: 12px;
+}
+
+#convertBtn {
+  border: none;
+  border-radius: 20px;
+  padding: 13px 29px;
+  font-size: 20px;
+  font-size: 25px;
+  font-weight: 700;
+  background-color: white;
+  color: #6f00ff;
+}
+
+#conversionCards {
+  background-color: #ededed;
+  /* height: 200px; */
+}
+.card {
+  margin: 41px;
+  background-color: white;
+  /* width: 70%; */
+  padding: 50px;
+  border-radius: 12px;
+}
+.cardTitle {
+}
+.cardConversions {
+}
