@@ -32,7 +32,7 @@ body {
 
 #fullApp {
   width: 430px;
-  height: 600px; /* extensions like fixed height */
+  height: 560px; /* extensions like fixed height */
   display: flex;
   flex-direction: column;
   border: 3px solid white;
@@ -40,8 +40,7 @@ body {
   background-color: white;
   border-radius: 24px;
   /* overflow: hidden; */
-    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
-
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
 }
 
 #headDiv {
@@ -49,7 +48,7 @@ body {
   color: white;
   display: flex;
   flex-direction: column;
-  height: 230px;
+  height: 178px;
   justify-content: space-evenly;
   align-items: center;
 }
@@ -57,16 +56,16 @@ body {
 #headTitle {
   margin: 0;
   font-size: 21px;
-  font-weight: 800;
+  font-weight: 900;
 }
 
 #valueInput {
-  width: 177px;
-  height: 70px;
+  width: 136px;
+  height: 56px;
   background-color: #6f00ff;
   border: 2px solid white;
   text-align: center;
-  font-size: 45px;
+  font-size: 38px;
   /* padding-left: 22px; */
   font-weight: bold;
   color: white;
@@ -76,7 +75,7 @@ body {
 #convertBtn {
   border: none;
   border-radius: 20px;
-  padding: 15px 40px;
+  padding: 11px 23px;
   font-size: 20px;
   font-size: 17px;
   font-weight: 700;
