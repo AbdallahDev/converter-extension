@@ -1,10 +1,21 @@
-let conversionDefaultValue = 20;
+let conversionDefaultValue = 0;
 const valueInputEl = document.getElementById("valueInput");
 const convertBtnEl = document.getElementById("convertBtn");
 
-valueInputEl.value = conversionDefaultValue;
+document.addEventListener("DOMContentLoaded", () => {
+  valueInputEl.value =
+    JSON.parse(localStorage.getItem("inputValue")) ?? conversionDefaultValue;
+
+  lengthConversions(Number(valueInputEl.value));
+  volumeConversions(Number(valueInputEl.value));
+  massConversions(Number(valueInputEl.value));
+});
+
+//save input value to local storage
 
 convertBtnEl.addEventListener("click", () => {
+  localStorage.setItem("inputValue", valueInputEl.value);
+
   lengthConversions(Number(valueInputEl.value));
 
   volumeConversions(Number(valueInputEl.value));
@@ -90,7 +101,7 @@ function massConversions(inputValue) {
 
   //do the conversions
   let massPoundsConversionValue = inputValue * conversionValue;
-  let volumelitersConversionValue = inputValue / conversionValue;
+  let massKilosConversionValue = inputValue / conversionValue;
 
   //set the conversion values
   massPoundsConversionValueEl.textContent =
