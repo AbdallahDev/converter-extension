@@ -22,17 +22,19 @@ body {
     sans-serif;
   margin: 0px;
   background-color: #ffffff;
-  min-width: 409px;
-  min-height: 417px;
+  min-width: fit-content;
+  min-height: fit-content;
   /* max-width: 800px; */
   font-size: 17px;
   /* border: 2px solid white; */
   /* border-radius: 11px; */
+  /* max-width: 300px; */
+  /* max-height: fit-content; */
 }
 
 #fullApp {
-  width: 424px;
-  height: 575px;
+  width: 283px;
+  height: 436px;
   display: flex;
   flex-direction: column;
   border: 3px solid white;
@@ -48,24 +50,24 @@ body {
   color: white;
   display: flex;
   flex-direction: column;
-  height: 178px;
+  height: 130px;
   justify-content: space-evenly;
   align-items: center;
 }
 
 #headTitle {
   margin: 0;
-  font-size: 21px;
+  font-size: 16px;
   font-weight: 900;
 }
 
 #valueInput {
-  width: 136px;
-  height: 56px;
+  width: 97px;
+  height: 35px;
   background-color: #6f00ff;
   border: 2px solid white;
   text-align: center;
-  font-size: 38px;
+  font-size: 25px;
   /* padding-left: 22px; */
   font-weight: bold;
   color: white;
@@ -75,9 +77,9 @@ body {
 #convertBtn {
   border: none;
   border-radius: 20px;
-  padding: 11px 23px;
+  padding: 7px 17px;
   font-size: 20px;
-  font-size: 17px;
+  font-size: 13px;
   font-weight: 700;
   background-color: white;
   color: #6f00ff;
@@ -90,12 +92,12 @@ body {
   overflow-y: auto; /* allows scrolling if content grows */
 }
 .card {
-  margin: 17px;
+  margin: 11px;
   background-color: white;
   /* width: 70vh; */
-  padding: 27px;
+  padding: 13px;
   border-radius: 12px;
-  font-size: 14px;
+  font-size: 13px;
 }
 .cardTitle {
   font-weight: 900;
