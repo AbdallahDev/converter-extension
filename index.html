@@ -1,47 +1,50 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <link rel="stylesheet" href="index.css" />
     <title>Unit Convertor</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-  </head>
+</head>
 
-  <body>
+<body>
     <div id="fullApp">
-      <div id="headDiv">
-        <div id="headTitle">Metric/Imperial Unit Conversion</div>
-        <input type="text" name="" id="valueInput" />
-        <button id="convertBtn">Convert</button>
-      </div>
-      <div id="conversionCards">
-        <div id="lengthCard" class="card">
-          <div id="title" class="cardTitle">Length (Meter/Feet)</div>
-          <div id="conversions">
-            <span id="lengthValue">20</span> meteres = 65.554 feet | 20 feet =
-            5.056 meters
-          </div>
+        <div id="headDiv">
+            <div id="headTitle">Metric/Imperial Unit Conversion</div>
+            <input type="text" name="" id="valueInput" />
+            <button id="convertBtn">Convert</button>
         </div>
-        <div id="volumeCard" class="card">
-          <div id="title" class="cardTitle">Volume (Liters/Gallons)</div>
-          <div id="conversions" class="cardConversions">
-            <span id="volumeValue">20</span> liters = 65.554 feet | 20 feet =
-            5.056 meters <span id="volumeLitersValue">20</span> kilos =
-            <span id="massPoundsConversionValue">65.554</span> feet |
-            <span id="massPoundsValue">20</span> feet =
-            <span id="massKilosConversionValue">9.072</span> meters
-          </div>
+        <div id="conversionCards">
+            <div id="lengthCard" class="card">
+                <div id="title" class="cardTitle">Length (Meter/Feet)</div>
+                <div id="conversions">
+                    <span id="lengthMetersValue">20</span> meters =
+                    <span id="lenghtFeetConversionValue">65.554</span> feet |
+                    <span id="lengthFeetValue">20</span> feet =
+                    <span id="lengthMetersConversionValue">9.072</span> meters
+                </div>
+            </div>
+            <div id="volumeCard" class="card">
+                <div id="title" class="cardTitle">Volume (Liters/Gallons)</div>
+                <div id="conversions" class="cardConversions">
+                    <span id="volumeLitersValue">20</span> liters =
+                    <span id="volumeGallonsConversionValue">65.554</span> gallons |
+                    <span id="volumeGallonsValue">20</span> gallons =
+                    <span id="volumelitersConversionValue">9.072</span> liters
+                </div>
+            </div>
+            <div id="massCard" class="card">
+                <div id="title" class="cardTitle">Mass (Kilograms/Pounds)</div>
+                <div id="conversions">
+                    <span id="massKilosValue">20</span> kilos =
+                    <span id="massPoundsConversionValue">65.554</span> pounds |
+                    <span id="massPoundsValue">20</span> pounds =
+                    <span id="massKilosConversionValue">9.072</span> kilos
+                </div>
+            </div>
         </div>
-        <div id="massCard" class="card">
-          <div id="title" class="cardTitle">Mass (Kilograms/Pounds)</div>
-          <div id="conversions">
-            <span id="massKilosValue">20</span> kilos =
-            <span id="massPoundsConversionValue">65.554</span> feet |
-            <span id="massPoundsValue">20</span> feet =
-            <span id="massKilosConversionValue">9.072</span> meters
-          </div>
-        </div>
-      </div>
     </div>
     <script src="index.js"></script>
-  </body>
+</body>
+
 </html>

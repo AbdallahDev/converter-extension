@@ -4,6 +4,6 @@
   "name": "Units Conversion",
   "action": {
     "default_popup": "index.html",
-    "default_icon": "favicon.ico"
+    "default_icon": "logo.png"
   }
 }
