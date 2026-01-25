@@ -6,9 +6,8 @@ body {
 }
 
 body {
-  text-align: center;
-  font-family:
-    "Inter",
+    text-align: center;
+    font-family: "Inter",
     system-ui,
     -apple-system,
     BlinkMacSystemFont,
@@ -20,27 +19,27 @@ body {
     "Open Sans",
     "Helvetica Neue",
     sans-serif;
-  margin: 0px;
-  background-color: #ffffff;
-  min-width: 430px;
-  min-height: 400px;
-  /* max-width: 800px; */
-  font-size: 17px;
-  /* border: 2px solid white; */
-  /* border-radius: 11px; */
+    margin: 0px;
+    background-color: #ffffff;
+    min-width: 409px;
+    min-height: 370px;
+    /* max-width: 800px; */
+    font-size: 17px;
+    /* border: 2px solid white; */
+    /* border-radius: 11px; */
 }
 
 #fullApp {
-  width: 430px;
-  height: 560px; /* extensions like fixed height */
-  display: flex;
-  flex-direction: column;
-  border: 3px solid white;
-  /* border-radius: 40px; */
-  background-color: white;
-  border-radius: 24px;
-  /* overflow: hidden; */
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+     width: 424px;
+    height: 540px;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid white;
+    /* border-radius: 40px; */
+    background-color: white;
+    border-radius: 24px;
+    /* overflow: hidden; */
+    /* box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25); */
 }
 
 #headDiv {
