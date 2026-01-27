@@ -39,20 +39,23 @@ function renderingCards(inputValue) {
       card["units"][0].charAt(0).toUpperCase() + card["units"][0].slice(1)
     }/${card["units"][1].charAt(0).toUpperCase() + card["units"][1].slice(1)})`;
     const conversionsEl = document.createElement("conversions");
-
-    //create conversion lines
-    for (let i = 0; i < 2; i++) {
-      let lineEl = document.createElement("div");
-      lineEl.classList.add("cardLine");
-      let conversion = inputValue * card.factors[i];
-      let secondUnit = card.units[i + 1];
-      if (i == 1) secondUnit = card.units[0];
-      lineEl.textContent = `${inputValue} ${card.units[i]} = ${conversion.toFixed(3)} ${secondUnit}`;
-      conversionsEl.append(lineEl);
-    }
+    creatingConversionLines(card,conversionsEl, inputValue);
 
     cardEl.append(titleEl);
     cardEl.append(conversionsEl);
     conversionCardsEl.append(cardEl);
+  }
+}
+
+function creatingConversionLines(conversionsEl, inputValue) {
+  //create conversion lines
+  for (let i = 0; i < 2; i++) {
+    let lineEl = document.createElement("div");
+    lineEl.classList.add("cardLine");
+    let conversion = inputValue * card.factors[i];
+    let secondUnit = card.units[i + 1];
+    if (i == 1) secondUnit = card.units[0];
+    lineEl.textContent = `${inputValue} ${card.units[i]} = ${conversion.toFixed(3)} ${secondUnit}`;
+    conversionsEl.append(lineEl);
   }
 }
