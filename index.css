@@ -24,25 +24,17 @@ body {
   background-color: #ffffff;
   min-width: fit-content;
   min-height: fit-content;
-  /* max-width: 800px; */
   font-size: 17px;
-  /* border: 2px solid white; */
-  /* border-radius: 11px; */
-  /* max-width: 300px; */
-  /* max-height: fit-content; */
 }
 
 #fullApp {
   width: 283px;
-  height: 418px;
+  height: 453px;
   display: flex;
   flex-direction: column;
   border: 3px solid white;
-  /* border-radius: 40px; */
   background-color: white;
   border-radius: 24px;
-  /* overflow: hidden; */
-  /* box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25); */
 }
 
 #headDiv {
@@ -87,14 +79,12 @@ body {
 
 #conversionCards {
   background-color: #ededed;
-  /* takes the remaining space */
   flex: 1;
-  overflow-y: auto; /* allows scrolling if content grows */
+  overflow-y: auto;
 }
 .card {
   margin: 11px;
   background-color: white;
-  /* width: 70vh; */
   padding: 13px;
   border-radius: 12px;
   font-size: 13px;
@@ -102,6 +92,10 @@ body {
 .cardTitle {
   font-weight: 900;
   margin-bottom: 10px;
+  font-size: 14px;
 }
-.cardConversions {
+
+.cardLine {
+  margin-top: 5px;
+  font-size: 14px;
 }
