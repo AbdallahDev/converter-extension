@@ -29,7 +29,7 @@ body {
 
 #fullApp {
   width: 283px;
-  height: 453px;
+  height: 437px;
   display: flex;
   flex-direction: column;
   border: 3px solid white;
@@ -96,6 +96,6 @@ body {
 }
 
 .cardLine {
-  margin-top: 5px;
-  font-size: 14px;
+  margin-top: 3px;
+  font-size: 13px;
 }
